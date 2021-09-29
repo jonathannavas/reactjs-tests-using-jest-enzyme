@@ -8,4 +8,5 @@ import CounterApp from './CounterApp';
 
 const divRoot = document.querySelector("#app");
 
-ReactDOM.render( <CounterApp value={0} /> , divRoot );
+ReactDOM.render( <CounterApp /> , divRoot );
+// ReactDOM.render( <PrimeraApp saludo='Hola mundo' /> , divRoot );
